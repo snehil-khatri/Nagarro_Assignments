@@ -15,9 +15,11 @@ $(document).ready(function()
     })
     $('.submission').on('click',function(){
         $('#box').removeClass('show');
+        check=false;
     });
     $('.close').on('click',function(){
         $('#box').removeClass('show');
+        check=false;
     });
 });
 
