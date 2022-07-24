@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(23, 19, 20);
+}
+
+h1{
+    text-align: center;
+    background: rgb(190, 157, 157);
+    color: rgb(17, 15, 15);
+    padding: 20px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.one,.three{
+    margin-top: 3vh;
+    margin-left: 20px;
+    min-width: 360px;
+    border:0;
+}
+
+.two button{
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(246, 241, 241);
+    color:rgb(14, 13, 13);
+    margin:5px;
+    /* justify-content: center; */
+    /* display:contents; */
+    margin-left: 45%;
+}
+
+textarea{
+    border: 3px solid black;
+    border-radius: 10px ;
+    background-color: blanchedalmond;
+    color: black;
+}
+
+.copybtn,.pastebtn{
+    border: 2px solid black;
+    margin-right: 10%;
+    background-color: aquamarine;
+    cursor:pointer;
+    width:10%;
+
+}
